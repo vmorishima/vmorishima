@@ -314,13 +314,13 @@ footer {
   text-transform:lowercase;
 }
 /*
-/** LIGHTBOX MARKUP **/
+/** LIGHTBOX MARKUP 
 
 .lightbox {
-  /** Default lightbox to hidden */
+  /** Default lightbox to hidden 
   
   display: none;
-  /** Position and style */
+  /** Position and style 
   
   position: fixed;
   z-index: 999;
@@ -333,7 +333,7 @@ footer {
 }
 
 .lightbox img {
-  /** Pad the lightbox image */
+  /** Pad the lightbox image 
   
   max-width: 90%;
   max-height: 80%;
@@ -341,10 +341,10 @@ footer {
 }
 
 .lightbox:target {
-  /** Remove default browser outline */
+  /** Remove default browser outline 
   
   outline: none;
-  /** Unhide lightbox **/
+  /** Unhide lightbox 
   
   display: block;
 }
