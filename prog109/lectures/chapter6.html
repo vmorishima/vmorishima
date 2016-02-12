@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Chapter 6</title>
+  <link rel="stylesheet" type="text/css" href="../../theme.css">
+   <link rel="icon" href="http://i205.photobucket.com/albums/bb186/mhilkas/favoicons/08.gif" type="image/gif"> 
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/aileron" type="text/css"/> </head>
+<body>
+  <div class="container">
+  <div id="navbar">
+    <nav>
+    <ul class="listnav">
+  <li><a href="../../index.html">home</a></li>
+      <li>&nbsp;</li>
+  <li><a href="../about.html">about</a></li>
+	  <li>&nbsp;</li>
+  <li><a href="../../coursework.html">coursework</a></li>
+      <li>&nbsp;</li>
+  <li><a href="../../artifacts.html">artifacts</a></li>
+      <li>&nbsp;</li>
+  <li><a href="../../contact.html">contact</a></li>
+	  <li>&nbsp;</li>
+  <li><a href="../portfolio.html">portfolio</a></li>
+</ul>
+    </nav>
+  </div>
+  <div id="header"></div>
+  <div id="contentbox">
+    <main>
+ <h1>HTML Tables</h1>
+  <h2>Table without merging</h2>
+  <table border="1">
+    <tr>
+      <th>Expense</th>
+      <th>Amount</th>
+      <th>Notes</th>
+    </tr>
+    <tr>
+      <td>Car</td>
+      <td>$50</td>
+      <td>Monthly</td>
+    </tr>  
+  <tr>
+      <td>Rent</td>
+      <td>$100</td>
+      <td>Weekly</td>
+    </tr>  
+  <tr>
+      <td>Food</td>
+      <td>$25</td>
+      <td>Weekly</td>
+    </tr>  
+  </table>
+
+<h2>Table with merging rows</h2>
+  <table border="1">
+    <tr>
+      <th>Expense</th>
+      <th>Amount</th>
+      <th>Notes</th>
+    </tr>
+    <tr>
+      <td>Car</td>
+      <td>$50</td>
+      <td rowspan="2">Monthly</td>
+    </tr>  
+  <tr>
+      <td>Rent</td>
+      <td>$100</td>
+      <!--<td>Monthly</td>-->
+    </tr>  
+  <tr>
+      <td>Food</td>
+      <td>$25</td>
+      <td>Weekly</td>
+    </tr>  
+  </table>
+  
+  <h2>Table with merging columns</h2>
+  <table border="1">
+    <tr>
+      <th colspan="2">Expense and Amount</th>
+      <!--<th>Amount</th>-->
+      <th>Notes</th>
+    </tr>
+    <tr>
+      <td>Car</td>
+      <td>$50</td>
+      <td>Monthly</td>
+    </tr>  
+  <tr>
+      <td>Rent</td>
+      <td>$100</td>
+      <td>Weekly</td>
+    </tr>  
+  <tr>
+      <td>Food</td>
+      <td>$25</td>
+      <td>Weekly</td>
+    </tr>  
+  </table>
+    </main><div id="datetime"></div>
+  </div>
+  </div>
+<script src="../../datetime.js"></script></body>
+</html>

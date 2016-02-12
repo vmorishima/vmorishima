@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>rhombus</title>
+  <link rel="stylesheet" type="text/css" href="rhombus.css">
+</head>
+  <body><h1>Artifact 3: Rhombus</h1>
+    <h2>V Morishima</h2>
+  <p>input height: <input type="number" id="height" value="5"></p>
+  <p>input odd color: 
+  <select id="color1">
+    <option value="red">red</option>
+    <option value="purple">purple</option>
+    <option value="gray">gray</option>
+    <option value="blue">blue</option>
+  </select></p>
+  <p>input even color: 
+  <select id="color2">
+    <option value="red">red</option>
+    <option value="purple">purple</option>
+    <option value="gray">gray</option>
+    <option value="blue">blue</option>
+  </select></p>
+  <p>input symbol: 
+  <select id="symbol">
+    <option value="*">*</option>
+    <option value="#">#</option>
+    <option value="@">@</option>
+    <option value="%">%</option>
+  </select></p>
+  <p><button onclick="rhombus()">draw!</button>
+  </p>
+    <div id="upLeft"></div>
+<div id="upRight"></div>
+<div class="break"></div>
+<div id="downLeft"></div>
+<div id="downRight"></div>
+    <script type="text/javascript" src="rhombus.js"></script>
+</body>
+</html>

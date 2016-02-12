@@ -1,0 +1,8 @@
+#upLeft,#upRight,#downLeft,#downRight{
+  float:left;
+  padding-left:3px;
+  
+}
+.break{
+  clear:both;
+}
